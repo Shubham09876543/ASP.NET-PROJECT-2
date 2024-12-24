@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -16,7 +17,11 @@ namespace PROJECT_1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Write("Hello World    !!!!!!");
+            //Response.Write("Hello World    !!!!!!");
+            int num1, num2;
+            num1 = int.Parse(TextBox1.Text);
+            num2 = Convert.ToInt32(TextBox2.Text);
+            Response.Write(num1+num2);
         }
     }
 }
