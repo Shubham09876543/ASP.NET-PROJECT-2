@@ -33,5 +33,10 @@ namespace PROJECT_1
 
             }
         }
+
+        protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+        {
+            Label1.Text=Calendar1.SelectedDate.ToString();
+        }
     }
 }
