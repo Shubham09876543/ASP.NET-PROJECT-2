@@ -11,9 +11,17 @@
         <div>
             <br />
             <br />
+
             <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/AdRotator.xml" Width="500px" Height="500px"/>
             <br />
             <br />
+            <br />
+            <asp:FileUpload ID="FileUpload1" runat="server" />
+            <br />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+            <br />
+            <br />
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
             <br />
             <br />
             <br />
