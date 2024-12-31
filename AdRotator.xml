@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Advertisements>
 	<Ad>
-		<ImageUrl>Photos\goku-super-saiyan-3840x2160-19870.jpg</ImageUrl>
-		<Keywords></Keywords>
-		<NavigateUrl></NavigateUrl>
-		<AlternateText></AlternateText>
-		<Impression></Impression>
+		<ImageUrl>Photos\goku-super-saiyan-3840x2160-19870.jpg</ImageUrl>  
+		<Keywords>techonology,c,c#</Keywords> 
+		<NavigateUrl>https://doodles.google/doodle/new-years-eve-2024/</NavigateUrl> 
+		<AlternateText>c-sharp</AlternateText>
+		<Impression>3</Impression> 
 	</Ad>
 </Advertisements>

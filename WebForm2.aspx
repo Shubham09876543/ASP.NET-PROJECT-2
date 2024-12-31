@@ -11,7 +11,7 @@
         <div>
             <br />
             <br />
-            <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/AdRotator.xml" />
+            <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/AdRotator.xml" Width="500px" Height="500px"/>
             <br />
             <br />
             <br />
