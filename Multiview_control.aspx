@@ -16,6 +16,13 @@
                     <asp:Label ID="Label1" runat="server" Text="VIEW - 1"></asp:Label>
                     <br />
                     <br />
+                    <asp:Label ID="Label5" runat="server" Text="Name  :"></asp:Label>
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" BackColor="White" BorderColor="#CC0000" ControlToValidate="TextBox1" ErrorMessage="Enter the name"></asp:RequiredFieldValidator>
+                    <br />
                     <br />
                     <asp:Button ID="Button1" runat="server" Text="Next" OnClick="Button1_Click" />
                 </asp:View>
