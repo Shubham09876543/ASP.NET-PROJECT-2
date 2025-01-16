@@ -38,5 +38,10 @@ namespace PROJECT_1
         {
             Label1.Text=Calendar1.SelectedDate.ToString();
         }
+
+        protected void AdRotator1_AdCreated(object sender, AdCreatedEventArgs e)
+        {
+
+        }
     }
 }

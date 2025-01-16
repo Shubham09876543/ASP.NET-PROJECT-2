@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdRotator.xml" />
+    <Content Include="Multiview_control.aspx" />
     <Content Include="Photos\goku-super-saiyan-3840x2160-19870.jpg" />
     <Content Include="Photos\momonga-overlord-5120x2880-19766.jpg" />
     <Content Include="Web.config" />
@@ -76,6 +77,13 @@
     <Content Include="WebForm3.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Multiview_control.aspx.cs">
+      <DependentUpon>Multiview_control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Multiview_control.aspx.designer.cs">
+      <DependentUpon>Multiview_control.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AddNum.aspx.cs">
       <DependentUpon>AddNum.aspx</DependentUpon>
