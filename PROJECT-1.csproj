@@ -71,6 +71,7 @@
     <Content Include="Multiview_control.aspx" />
     <Content Include="Photos\goku-super-saiyan-3840x2160-19870.jpg" />
     <Content Include="Photos\momonga-overlord-5120x2880-19766.jpg" />
+    <Content Include="Registerform.aspx" />
     <Content Include="Web.config" />
     <Content Include="AddNum.aspx" />
     <Content Include="AdRotator-.aspx" />
@@ -98,6 +99,13 @@
     </Compile>
     <Compile Include="AdRotator-.aspx.designer.cs">
       <DependentUpon>AdRotator-.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registerform.aspx.cs">
+      <DependentUpon>Registerform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registerform.aspx.designer.cs">
+      <DependentUpon>Registerform.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
